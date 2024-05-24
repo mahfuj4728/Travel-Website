@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="destination.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Destination</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="" class="logo"/>
+        <nav class="navbar">
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Destination.html">Destination</a></li>
+            <li><a href="Booking.html">Booking</a></li>
+            <li><a href="Organic Corner.html">Organic Corner</a></li>
+            <li><a href="login.html" class="login-btn">Login</a></li>
+            <li><a href="signup.html" class="signup-btn">Sign Up</a></li>
+          </ul>
+        </nav>
+    </header>
+        <script>
+        $(document).ready(function(){
+            $(".package-card").click(function(){
+                window.location = "booking.html";
+            });
+        });
+        </script>
+    <section class="line">
+        <p><b>Explore our destinations and find your next adventure:</b></p>
+        <div class="search-container">
+            <div class="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <input type="text" id="destination-search" placeholder="Places to go...">
+            <button id="search-btn">Search</button>
+        </div>
+    </section>
+    
+    <section class="packages-section">
+        <h2>Choose Your Perfect Package</h2>
+        <div class="packages">
+            <div class="package-card">
+                <img src="images/family.jpg" alt="Family Package">
+                <h3>Family Package</h3>
+                <p>Enjoy a fun-filled vacation with your loved ones. Includes activities for all ages. Please call us for more details.</p>
+            </div>
+
+
+            <div class="package-card">
+                <img src="images/solo.jpg" alt="Solo Package">
+                <h3>Solo Package</h3>
+                <p>Adventure awaits those who travel alone. Explore the world on your own terms. Please call us for more details.</p>
+            </div>
+
+            <div class="package-card">
+                <img src="images/honeymoon.jpg" alt="Honeymoon Package">
+                <h3>Honeymoon Package</h3>
+                <p>Romantic getaways designed for newlyweds. Experience the magic of love. Please call us for more details.</p>
+            </div>
+
+        </div>
+    </section>    
+    
+    <section class="title-style" style="margin-bottom: 50px;">
+        <div class="services-card">
+            <div class="destination-card" onclick="location.href='rome.html';" style="cursor: pointer;">
+                <img src="images/rome.jpg" alt="75">
+                <h4>Rome, Italy <span>$5.42k</span></h4>
+                <p>All roads lead to Rome, so they say. Or maybe it should be all interests.</p>
+            </div>
+            <div class="destination-card" onclick="location.href='paris.html';" style="cursor: pointer;">
+                <img src="images/paris.jpg" alt="75">
+                <h4>Paris, France <span>$4.78k</span></h4>
+                <p>Paris lives up to its hype: A city with unbelievable food and culture.</p>
+            </div>
+            <div class="destination-card" onclick="location.href='london.html';" style="cursor: pointer;">
+                <img src="images/london.jpg" alt="75">
+                <h4>London, UK <span>$4.55k</span></h4>
+                <p>London is a sprawling city at the center of everything. Rich and Beautiful.</p>
+            </div>
+            <div class="destination-card" onclick="location.href='Athens.html';" style="cursor: pointer;">
+                <img src="images/greece.jpg" alt="75">
+                <h4>Athens, Greece <span>$5.50k</span></h4>
+                <p>Once the heart of one of the most powerful civilizations. Historical city.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="title-style" style="margin-bottom: 50px;">
+        <div class="services-card">
+            <div class="destination-card" onclick="location.href='Barcelona.html';" style="cursor: pointer;">
+                <img src="images/barcelona.jpg" alt="75">
+                <h4>Barcelona, Spain <span>$5.20k</span></h4>
+                <p>When it comes to history, art, and architecture Barcelona delivers.</p>
+            </div>
+            <div class="destination-card" onclick="location.href='Hallstatt.html';" style="cursor: pointer;">
+                <img src="images/austria.jpg" alt="75">
+                <h4>Hallstatt, Austria <span>$3.5k</span></h4>
+                <p>Get your cameras ready.This town is known as the most photographed place.</p>
+            </div>
+            <div class="destination-card" onclick="location.href='Petra.html';" style="cursor: pointer;">
+                <img src="images/jordan.jpg" alt="75">
+                <h4>Petra, Jordan <span>$3.55k</span></h4>
+                <p>Want to know why it's called the Rose City? Wait until you see it glowing at sunset.</p>
+            </div>
+            <div class="destination-card" onclick="location.href='saturnia.html';" style="cursor: pointer;">
+                <img src="images/saturnias.jpg" alt="75">
+                <h4>Saturnia, Italy <span>$5.10k</span></h4>
+                <p>You'll also get to enjoy sweeping views of the Tuscan countryside while soaking.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="title-style" style="margin-bottom: 50px;">
+        <div class="services-card">
+            <div class="destination-card" onclick="location.href='Valletta.html';" style="cursor: pointer;">
+                <img src="images/valletta.jpg" alt="75">
+                <h4>Valletta, Malta<span>$3.20k</span></h4>
+                <p>The capital city of Malta, Valletta is right at the edge of the country's largest island.</p>
+            </div>
+            <div class="destination-card" onclick="location.href='Hamnoy.html';" style="cursor: pointer;">
+                <img src="images/norway.jpg" alt="75">
+                <h4>Hamnøy, Norway <span>$5.80k</span></h4>
+                <p>The remote Lofoten Islands of Norway are full of one-of-a-kind experiences.</p>
+            </div>
+            <div class="destination-card" onclick="location.href='Cappadocia.html';" style="cursor: pointer;">
+                <img src="images/cappadocia.jpg" alt="75">
+                <h4>Cappadocia, Turkey <span>$5.55k</span></h4>
+                <p>Those ancient rock formations used to be dwellings, which makes it a particularly great.</p>
+            </div>
+            <div class="destination-card" onclick="location.href='Mostar.html';" style="cursor: pointer;">
+                <img src="images/bosnia.jpg" alt="75">
+                <h4>Mostar, Bosnia <span>$4.35k</span></h4>
+                <p>It only takes a quick glance to see that Mostar, Bosnia is one of the most beautiful cities.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="footer">
+          <div class="footer-col f-col-1">
+            <img src="images/logo.svg" alt="" width="100">
+            <p>Book your trip in minute, get full Control for much longer.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Android App</a></li>
+              <li><a href="">IOS App</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="">Help/FAQ</a></li>
+              <li><a href="">Press</a></li>
+              <li><a href="">Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>More</h4>
+            <ul>
+              <li><a href="">Airlinefees</a></li>
+              <li><a href="">Airline</a></li>
+              <li><a href="">Offers</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="end-text">
+        <p>All rights reserved to Adventura </p>
+      </div>
+
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar li a:hover {
+    color: #1E90FF;
+}
+
+li,
+a,
+button {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #212832;
+}
+
+.signup-btn {
+    border: 2px solid black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.login-btn {
+    border: 2px solid black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(5, 139, 14);
+}
+
+.subheading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+.order-button {
+    background-color: #207b23;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.order-button:hover {
+    background-color: #034106;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item img {
+    width: 150px;
+    padding-right: 20px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item-details {
+    flex: 1;
+}
+
+.menu-item-details h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+.menu-item-details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer-col {
+    margin-top: 0;
+}
+
+.footer-col p {
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 0.88889rem;
+}
+
+.footer-col h4 {
+    color: #080809;
+    font-weight: 700;
+    font-size: 1.26563rem;
+    margin-top: 0;
+}
+
+.footer-col ul {
+
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-col li {
+    margin-bottom: 0.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-col ul li a {
+    color: #5E6282;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+
+.end-text p {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 0.88889rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
